@@ -1,5 +1,5 @@
 * {
-    margin: padding 0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -26,11 +26,7 @@ footer {
 
 #hTXT {
     font-size: 85px;
-}
-#manimage {
-    width: 300px;
-    height: 400px;
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .footerbox {
@@ -39,4 +35,10 @@ footer {
     min-height: 50px;
     margin: 5px;
     text-align: center;
+
+}
+
+.KBpics {
+    width: 100px;
+    height: 100px;
 }
