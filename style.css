@@ -19,13 +19,14 @@ main {
     color: bisque;
     margin-bottom: 25px;
     margin-top: 25px;
-    margin-left: auto;
+    display: flex;
+    justify-content: center;
 }
 
 header {
     text-align: center;
     height: 100px;
-    background-image: linear-gradient(rgb(113, 48, 174), rgb(29, 1, 55));
+    background-image: linear-gradient(rgb(30, 4, 54), rgb(120, 43, 193));
 }
 
 footer {
@@ -51,5 +52,7 @@ footer {
     height: 30%;
     margin-right: 25px;
     margin-left: 25px;
+    display: inline-flex;
+    justify-content: center;
 
 }
