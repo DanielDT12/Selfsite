@@ -5,13 +5,29 @@
 }
 
 body {
-    background-color: dimgrey;
+    background-image: linear-gradient(rgb(85, 85, 85), rgb(5, 0, 10));
     color: whitesmoke;
 }
 
 main {
     height: 60vh;
     overflow-y: scroll;
+}
+
+.w1para {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border: 2px solid rgb(26, 26, 26);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(181, 162, 197);
+    color: rgb(16, 16, 16);
+    font-size: 20px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .h1-main {
@@ -21,6 +37,12 @@ main {
     margin-top: 25px;
     display: flex;
     justify-content: center;
+}
+
+.audio-player-w1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
 }
 
 header {
@@ -56,3 +78,4 @@ footer {
     justify-content: center;
 
 }
+
