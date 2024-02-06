@@ -10,7 +10,7 @@ body {
 }
 
 main {
-    height: 60vh;
+    height: 79vh;
     overflow-y: scroll;
 }
 
@@ -20,14 +20,15 @@ main {
     margin-bottom: 40px;
     margin-left: 25px;
     margin-right: 25px;
-    border: 2px solid rgb(26, 26, 26);
-    border-radius: 10px;
+    border: transparent;
+    border-radius: 20px;
     padding: 10px;
-    background-color: rgb(181, 162, 197);
-    color: rgb(16, 16, 16);
-    font-size: 20px;
+    background-color: #44475A;
+    color: #F8F8F2;
+    font-size: 18px;
     font-weight: 900;
     font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 2px rgb(20, 20, 20);
 }
 
 .h1-main {
@@ -60,9 +61,12 @@ header {
     height: 100px;
 }
 
-#footerTxt {
+.footerTxt {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
     margin-top: 25px;
     font-family: Arial, Helvetica, sans-serif;
     text-shadow: 1px 1px 1px black;
@@ -76,6 +80,7 @@ header {
     text-shadow: 3px 3px 3px black;
     padding-top: 25px;
     padding-left: 25px;
+    color: #BD93F9;
 }
 
 .KBpics {
@@ -123,32 +128,32 @@ header {
     background-color: #44475A;
 }
 
-div.kbaTags a {
+div.aTag a {
     text-decoration: none;
 
 }
 
-div.kbaTags a:link {
+div.aTag a:link {
     color: #F8F8F2;
 
 }
 
-div.kbaTags a:visited {
+div.aTag a:visited {
     color: #FF79C6;
 
 }
 
-div.kbaTags a:focus {
+div.aTag a:focus {
     color: #50FA7B;
 
 }
 
-div.kbaTags a:hover {
+div.aTag a:hover {
     color: #8BE9FD;
 
 }
 
-div.kbaTags a:active {
+div.aTag a:active {
     color: #F1FA8C;
 
 }
