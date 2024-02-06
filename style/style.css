@@ -60,6 +60,15 @@ header {
     height: 100px;
 }
 
+#footerTxt {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 1px black;
+    color: #BD93F9;
+}
+
 #hTXT {
     display: flex;
     font-size: 40px;
@@ -79,3 +88,67 @@ header {
 
 }
 
+#mainH1Txt {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 100px;
+    margin-left: 100px;
+    border: transparent;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #44475A;
+
+}
+
+#keyboardAnchor {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    margin-left: 300px;
+    margin-right: 300px;
+    border: transparent;
+    border-radius: 30px;
+    padding: 30px;
+    background-color: #44475A;
+}
+
+div.kbaTags a {
+    text-decoration: none;
+
+}
+
+div.kbaTags a:link {
+    color: #F8F8F2;
+
+}
+
+div.kbaTags a:visited {
+    color: #FF79C6;
+
+}
+
+div.kbaTags a:focus {
+    color: #50FA7B;
+
+}
+
+div.kbaTags a:hover {
+    color: #8BE9FD;
+
+}
+
+div.kbaTags a:active {
+    color: #F1FA8C;
+
+}
