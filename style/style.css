@@ -146,6 +146,39 @@ header {
 
 }
 
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    width: 345px;
+    padding: 20px;
+    border: 3px solid #6272A4;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    
+}
+
+input {
+    background-color: #44475A;
+    color: #F8F8F2;
+    width: 300px;
+    margin-top: 30px;
+    border: 2px solid #6272A4;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 18px;
+
+}
+
+::placeholder {
+    color: #BD93F9;
+    opacity: 1;
+}
+
 button:hover.profileBtn {
     background-color: #44475A;
 }
