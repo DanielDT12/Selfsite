@@ -6,7 +6,7 @@
 
 body {
     background-color: #282A36;
-    color: whitesmoke;
+    color: #F8F8F2;
 }
 
 main {
@@ -129,10 +129,13 @@ header {
 }
 
 .profile-container {
+    position: absolute;
+    left: 1800px;
+    top: 20px;
     display: flex;
     justify-content: center;
     width: 70px;
-    border: 1px solid white;
+    border: none;
     
 }
 
@@ -141,6 +144,16 @@ header {
     border-radius: 25px;
     background-color: #282A36;
 
+}
+
+button:hover.profileBtn {
+    background-color: #44475A;
+}
+
+button:active.profileBtn {
+    background-color: #555a7b;
+    box-shadow: 2px 2px #666;
+    transform: translateY(2px);
 }
 
 div.aTag a {
