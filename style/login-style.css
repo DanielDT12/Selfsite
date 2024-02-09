@@ -5,6 +5,9 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     background-color: #282A36;
     color: #F8F8F2;
 }
@@ -16,8 +19,11 @@ header {
 }
 
 main {
-    height: 79vh;
-    overflow-y: scroll;
+
+}
+
+footer {
+    margin-top: auto;
 }
 
 /* Container for alle elementer i header */
@@ -128,11 +134,11 @@ button:active.profileBtn {
 
 input[type=submit] {
     color: #F8F8F2;
-    transition-duration: 0.7s;
 }
 
 input[type=submit]:hover {
     background-color: #767a93;
+    transition-duration: 0.7s;
 }
 
 input {
@@ -156,7 +162,7 @@ input {
 /* Footer style og text elementer */
 #footer {
     background-color: #44475A;
-    position: absolute;
+    position: sticky;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -169,7 +175,7 @@ input {
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    margin-top: 25px;
+    padding-top: 25px;
     font-family: Arial, Helvetica, sans-serif;
     text-shadow: 1px 1px 1px black;
     color: #BD93F9;
