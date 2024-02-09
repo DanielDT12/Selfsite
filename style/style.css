@@ -20,12 +20,18 @@ main {
     overflow-y: scroll;
 }
 
+/* Container for alle elementer i header */
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px;
+}
+/* Container for alle elementer i header */
+
 /* Header elementer og nav style */
 #hTXT {
     display: flex;
-    position: relative;
-    top: 25px;
-    left: 25px;
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
     text-shadow: 3px 3px 3px black;
@@ -42,10 +48,7 @@ main {
     display: flex;
     justify-content: space-between;
     width: 1200px;
-    position: relative;
-    left: 400px;
-    bottom: 15px;
-    padding: 5px;
+    padding: 10px 30px 10px 30px;
 }
 
     /* Container i header til nav linker anchor tag */
@@ -78,9 +81,8 @@ main {
 
 /* Profil container i header og profil button */
 .profile-container {
-    position: absolute;
-    left: 1800px;
-    top: 20px; 
+    display: flex;
+    justify-content: center;
     width: 70px;
     border: none;
     
