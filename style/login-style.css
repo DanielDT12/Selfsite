@@ -126,6 +126,15 @@ button:active.profileBtn {
     
 }
 
+input[type=submit] {
+    color: #F8F8F2;
+    transition-duration: 0.7s;
+}
+
+input[type=submit]:hover {
+    background-color: #767a93;
+}
+
 input {
     background-color: #44475A;
     color: #F8F8F2;
